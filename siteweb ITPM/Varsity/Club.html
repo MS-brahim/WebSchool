@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>ITPM | Galerie</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Font awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">   
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">          
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">  
+
+    <!-- Main style sheet -->
+    <link href="assets/css/style.css" rel="stylesheet">    
+
+   
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,700' rel='stylesheet' type='text/css'>
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    
+        <!--START SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#">
+      <i class="fa fa-angle-up"></i>      
+    </a>
+  <!-- END SCROLL TOP BUTTON -->
+
+  <!-- Start header  -->
+  <header id="mu-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="mu-header-area">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="mu-header-top-left">
+                  <div class="mu-top-email">
+                    <i class="fa fa-envelope"></i>
+                    <span>info@markups.io</span>
+                  </div>
+                  <div class="mu-top-phone">
+                    <i class="fa fa-phone"></i>
+                    <span>+2125246-68155</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="mu-header-top-right">
+                  <nav>
+                    <ul class="mu-top-social-nav">
+                      <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                      <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                      <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                      <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                      <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End header  -->
+  <!-- Start menu -->
+  <section id="mu-menu">
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->              
+          <!-- TEXT BASED LOGO -->
+          <a class="navbar-brand" href="index.html"><i><img src="assets/img/logoitpm.png" width="61" height="auto"></i><span>IPTM</span></a>
+          <!-- IMG BASED LOGO  -->
+          <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a> -->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <li><a href="index.html">Accueil</a></li>            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cours<span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="course.html">Archive du cours</a></li>                
+                <li><a href="course-detail.html">Détail du cours</a></li>                
+              </ul>
+            </li>           
+            <li><a href="gallery.html">Galerie</a></li>
+            <li><a href="profil.html">Profil</a></li>         
+            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="club.html">Club</a></li>               
+            <li><a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a></li>
+          </ul>                     
+        </div><!--/.nav-collapse -->        
+      </div>     
+    </nav>
+  </section>
+  <!-- End menu -->
+  <!-- Start search box -->
+  <div id="mu-search">
+    <div class="mu-search-area">      
+      <button class="mu-search-close"><span class="fa fa-close"></span></button>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">            
+            <form class="mu-search-form">
+             <input type="search" placeholder="Type Your Keyword(s) & Hit Enter">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End search box -->
+ <!-- Page breadcrumb -->
+ <section id="mu-page-breadcrumb">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="mu-page-breadcrumb-area">
+           <h2>Club</h2>
+           <ol class="breadcrumb">
+            <li><a href="#">Accueil</a></li>            
+            <li class="active">Club</li>
+          </ol>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- End breadcrumb -->
+
+ <!-- Start club  -->
+ <section id="mu-contact">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="mu-contact-area">
+          <!-- start title -->
+          <div class="mu-title">
+            <h2>SECTEURS D’ACTIVITÉ</h2>
+            <p>Découvrez les formations de l’institut de technologie de peche maritime safi (ITPM) selon le secteur d’activité qui vous intéresse.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+ <section id="mu-course-content">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="mu-course-content-area">
+            <div class="row">
+              <div class="col-md-9">
+                <!-- start course content container -->
+                <div class="mu-course-container mu-blog-single">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <article class="mu-blog-single-item">
+                        <figure class="mu-blog-single-img">
+                          <a href="#"><img alt="img" src="assets/img/club/1.jpeg"></a>
+                          <figcaption class="mu-blog-caption">
+                            <h3><a><b style="color: #01BAFD">LICENCE STAPS : EDUCATION ET MOTRICITÉ (EM)</b></a></h3>
+                          </figcaption>                      
+                        </figure>
+                        <div class="mu-blog-meta">
+                          <a href="#">Par Admin</a>
+                          <a href="#">02 Juin 2019</a>
+                          <span><i class="fa fa-comments-o"></i> 102</span>
+                        </div>
+                        <div class="mu-blog-description">
+                          <p>Les cours de première et deuxième années de licence STAPS constituent un portail commun aux trois mentions de licence STAPS de troisième année : Activité physique adaptée et santé (APAS), Education et motricité (EM) et Entraînement sportif (ES).
+                          La licence STAPS « Sciences et Techniques des Activités Physiques et Sportives » est une licence générale.<br/>Elle vise principalement<b> à développer chez les étudiants des connaissances approfondies concernant les Activités Physiques et Sportives (APS) dans leurs dimensions technique, institutionnelle et scientifique.</b><br/>Elle conduit les étudiants à mener une réflexion sur les APS en relation avec différents publics (enfants, adolescents, adultes, sportifs de haut niveau...), les différentes situations (loisir, travail, compétition...), tout en prenant en compte les contraintes du milieu (sociales, environnementales...).<br/><b>La Licence STAPS : Activités Physiques Adaptées et Santé figure au Répertoire National des Certifications Professionnelles dans le champ du sport et de l’animation.</b> Elle permet de se positionner directement sur le marché du travail au niveau de postes de cadres intermédiaires. 
+                          L’objectif principal de cette mention vise à former des diplômés ayant pour mission de participer à la conception, la conduite et l’évaluation de programmes de réadaptation et d’intégration par l’Activité Physique Adaptée (APA) auprès de publics spécifiques.</p>
+                         
+                          
+                        </div>
+                        <!-- start club post tags -->
+                        <div class="mu-blog-tags">
+                          <ul class="mu-news-single-tagnav">
+                            <li>TAGS :</li>
+                            <li><a href="#">Science,</a></li>
+                            <li><a href="#">Physique,</a></li>
+                            <li><a href="#">Sports,</a></li>
+                            <li><a href="#">Santé</a></li>
+                          </ul>
+                        </div>
+                        <!-- End club post tags -->
+                        <!-- start club social share -->
+                        <div class="mu-blog-social">
+                          <ul class="mu-news-social-nav">
+                            <li>PARTAGE SOCIAL :</li>
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                          </ul>
+                        </div>
+                        <!-- End club social share -->
+                      </article>
+                    </div>                                   
+                  </div>
+                </div>
+                <!-- end course content container --> 
+                
+              </div>
+              <div class="col-md-3">
+                <!-- start sidebar -->
+                <aside class="mu-sidebar">
+                  
+                  <!-- start single sidebar -->
+                  <div class="mu-single-sidebar">
+                    <h3>Archive</h3>
+                    <div class="mu-sidebar-popular-courses">
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="#">
+                            <img class="media-object" src="assets/img/club/2.jpg" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#">Paddle board</a></h4> </div>
+
+                      </div>
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="#">
+                            <img class="media-object" src="assets/img/club/3.jpg" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#">La natation</a></h4>
+                        </div>
+                      </div>
+
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="#">
+                            <img class="media-object" src="assets/img/club/4.png" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#">Football</a></h4>
+                     
+                        </div>
+                      </div>
+
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="#">
+                            <img class="media-object" src="assets/img/club/5.jpg" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#">Equipe minifoot</a></h4>   
+                        </div>
+                      </div>
+
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="#">
+                            <img class="media-object" src="assets/img/club/6.jpg" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#">Volleyball</a></h4>   
+                        </div>
+                      </div>
+
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="#">
+                            <img class="media-object" src="assets/img/club/7.jpg" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#">Musculation</a></h4>   
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- end single sidebar -->
+                </aside>
+                <!-- / end sidebar -->
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- End club  -->
+ 
+
+  <!-- Start footer -->
+  <footer id="mu-footer">
+    <!-- start footer top -->
+    <div class="mu-footer-top">
+      <div class="container">
+        <div class="mu-footer-top-area">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>Information</h4>
+                <ul>
+                  <li><a href="#">À Propos De Nous</a></li>
+                  <li><a href="">Traits</a></li>
+                  <li><a href="">Cours</a></li>
+                  <li><a href="">Event</a></li>
+                  <li><a href="">Sitemap</a></li>
+                  <li><a href="">Conditions D'utilisation</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>AIDE AUX ÉTUDIANTS</h4>
+                <ul>
+                  <li><a href="">Commencer</a></li>
+                  <li><a href="#">Mes Questions </a></li>
+                  <li><a href="">Telecharger Des Fichiers</a></li>
+                  <li><a href="">Dernier Cours</a></li>
+                  <li><a href="">Actualités Académiques</a></li>                  
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>LETTRE DE NOUVELLES</h4>
+                <p> Recevez les dernières mises à jour, nouvelles & offres académiques </p>
+                <form class="mu-subscribe-form">
+                  <input type="email" placeholder="Type your Email">
+                  <button class="mu-subscribe-btn" type="submit">Subscribe </button>
+                </form>               
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>Contact</h4>
+                <address>
+                  <p>P.O. Box 320, Ross, California 9495, USA</p>
+                  <p>Phone:+2125246-68155</p>
+                  <p>Website: www.markups.io</p>
+                  <p>Email: info@markups.io</p>
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer top -->
+    <!-- start footer bottom -->
+    <div class="mu-footer-bottom">
+      <div class="container">
+        <div class="mu-footer-bottom-area">
+          <p>&copy; All Right Reserved. Designed by <a href="http://www.markups.io/" rel="nofollow">MarkUps.io</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- end footer bottom -->
+  </footer>
+  <!-- End footer -->
+
+
+
+
+
+  
+  <!-- jQuery library -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.js"></script>   
+  <!-- Slick slider -->
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <!-- Counter -->
+  <script type="text/javascript" src="assets/js/waypoints.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.counterup.js"></script>  
+  <!-- Mixit slider -->
+  <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+
+  <!-- Custom js -->
+  <script src="assets/js/custom.js"></script> 
+
+ 
+</body>
+</html>
