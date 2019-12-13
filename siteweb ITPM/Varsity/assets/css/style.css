@@ -2087,7 +2087,7 @@ img {
   }
 
   #mu-menu .navbar-header .navbar-brand {
-    padding-top: 10px;
+    padding-top: 0px;
   }
 
   #mu-search-icon {
@@ -2428,7 +2428,7 @@ img {
   margin:4px;
   margin-bottom: 20px;
    display: inline;
-  float: right;
+  float: left;
 }
 /*===============LOGIN
 =============*/
