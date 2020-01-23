@@ -2411,40 +2411,53 @@ img {
 
 /*========PROFIL
 ===============*/
-#mu-profil{
-   float: right;
-   margin-left: 160px;
-   margin-right: 40px;
-   border: 1px solid black;
-   height: 310px;
-   width: 300px;
-   padding-left: 20px;
-   padding-right: 20px;
-   margin-bottom: 50px;
-   background-color: #333333;
- }
-#mu-profil input {
-  padding: 14px
-  margin:4px;
-  margin-bottom: 20px;
-   display: inline;
-  float: left;
+.profil-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-/*===============LOGIN
-=============*/
 
-#app {
-  float: right;
-  margin-right: 34px;
-  height: 310px;
-  width: 333px;
-  padding-right: 20px;
-  padding-left: 40px;
+.col-incri-profil {
+  background-color: #333333;
+  width: 298px;
+  height: 334px;
+}
 
+.col-incri-profil input {
+  margin: 16px 0;
+  width: 260px;
+  height: 38px;
+  border-radius: 5px;
+}
+
+.col-incri-profil label {
+  justify-content: start;
+  display: inline-flex;
+  width: 100px;
+}
+
+.col-incri-profil input [type=checkbox] {
+  display: inline;
+  justify-content: flex-start;
+  margin: 0;
 
 }
-#body {
- background-image: url(assets/img/bgg.jpg);
+
+.col-incri-profil button {
+  width: 83px;
+  height: 27px;
+  font-size: 16px;
+  font-weight: normal;
+  border-radius: 5px;
+  color: white;
+  background-color: #01bafd;
+}
+
+.col-app {
+  width: 30%;
+  padding: 0 10px;
+  flex-wrap: nowrap;
+
 }
 /*========CLUB
 ==============*/
